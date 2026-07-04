@@ -209,7 +209,7 @@
      <string>SPECIALTIES</string>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="rating_text_1">
+   <widget class="QPlainTextEdit" name="agility_rating_text">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -231,6 +231,9 @@
     </property>
     <property name="plainText">
      <string>2</string>
+    </property>
+    <property name="centerOnScroll">
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label_9">
@@ -278,7 +281,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="rating_text_2">
+   <widget class="QPlainTextEdit" name="animal_rating_text">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -300,6 +303,9 @@
     </property>
     <property name="plainText">
      <string>2</string>
+    </property>
+    <property name="centerOnScroll">
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label_10">
@@ -334,7 +340,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="rating_text_3">
+   <widget class="QPlainTextEdit" name="athletics_rating_text">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -357,6 +363,9 @@
     <property name="plainText">
      <string>2</string>
     </property>
+    <property name="centerOnScroll">
+     <bool>false</bool>
+    </property>
    </widget>
    <widget class="QPlainTextEdit" name="specialties_text_4">
     <property name="geometry">
@@ -371,7 +380,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="rating_text_4">
+   <widget class="QPlainTextEdit" name="awareness_rating_text">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -393,6 +402,9 @@
     </property>
     <property name="plainText">
      <string>2</string>
+    </property>
+    <property name="centerOnScroll">
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label_11">
@@ -452,7 +464,7 @@
      <string>Cunning</string>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="rating_text_5">
+   <widget class="QPlainTextEdit" name="cunning_rating_text">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -474,6 +486,9 @@
     </property>
     <property name="plainText">
      <string>2</string>
+    </property>
+    <property name="centerOnScroll">
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QPlainTextEdit" name="specialties_text_5">
@@ -508,7 +523,7 @@
      <string>Endurance</string>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="rating_text_6">
+   <widget class="QPlainTextEdit" name="endurance_rating_text">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -530,6 +545,9 @@
     </property>
     <property name="plainText">
      <string>2</string>
+    </property>
+    <property name="centerOnScroll">
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QPlainTextEdit" name="specialties_text_6">
@@ -564,7 +582,7 @@
      <string>Fighting</string>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="rating_text_7">
+   <widget class="QPlainTextEdit" name="fighting_rating_text">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -586,6 +604,9 @@
     </property>
     <property name="plainText">
      <string>2</string>
+    </property>
+    <property name="centerOnScroll">
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QPlainTextEdit" name="specialties_text_7">
@@ -620,7 +641,7 @@
      <string>Healing</string>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="rating_text_8">
+   <widget class="QPlainTextEdit" name="healing_rating_text">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -642,6 +663,9 @@
     </property>
     <property name="plainText">
      <string>2</string>
+    </property>
+    <property name="centerOnScroll">
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QPlainTextEdit" name="specialties_text_8">
@@ -676,7 +700,7 @@
      <string>Language</string>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="rating_text_9">
+   <widget class="QPlainTextEdit" name="language_rating_text">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -698,6 +722,9 @@
     </property>
     <property name="plainText">
      <string>2</string>
+    </property>
+    <property name="centerOnScroll">
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QPlainTextEdit" name="specialties_text_9">
@@ -732,7 +759,7 @@
      <string>Knowledge</string>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="rating_text_10">
+   <widget class="QPlainTextEdit" name="knowledge_rating_text">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -754,6 +781,9 @@
     </property>
     <property name="plainText">
      <string>2</string>
+    </property>
+    <property name="centerOnScroll">
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QPlainTextEdit" name="specialties_text_10">
@@ -788,7 +818,7 @@
      <string>Marksmanship</string>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="rating_text_11">
+   <widget class="QPlainTextEdit" name="marksmanship_rating_text">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -810,6 +840,9 @@
     </property>
     <property name="plainText">
      <string>2</string>
+    </property>
+    <property name="centerOnScroll">
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QPlainTextEdit" name="specialties_text_11">
@@ -844,7 +877,7 @@
      <string>Persuasion</string>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="rating_text_12">
+   <widget class="QPlainTextEdit" name="persuasion_rating_text">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -866,6 +899,9 @@
     </property>
     <property name="plainText">
      <string>2</string>
+    </property>
+    <property name="centerOnScroll">
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QPlainTextEdit" name="specialties_text_12">
@@ -900,7 +936,7 @@
      <string>Status</string>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="rating_text_13">
+   <widget class="QPlainTextEdit" name="status_rating_text">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -922,6 +958,9 @@
     </property>
     <property name="plainText">
      <string>2</string>
+    </property>
+    <property name="centerOnScroll">
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QPlainTextEdit" name="specialties_text_13">
@@ -956,7 +995,7 @@
      <string>Stealth</string>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="rating_text_14">
+   <widget class="QPlainTextEdit" name="stealth_rating_text">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -978,6 +1017,9 @@
     </property>
     <property name="plainText">
      <string>2</string>
+    </property>
+    <property name="centerOnScroll">
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QPlainTextEdit" name="specialties_text_14">
@@ -1012,7 +1054,7 @@
      <string>Survival</string>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="rating_text_15">
+   <widget class="QPlainTextEdit" name="survival_rating_text">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -1034,6 +1076,9 @@
     </property>
     <property name="plainText">
      <string>2</string>
+    </property>
+    <property name="centerOnScroll">
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QPlainTextEdit" name="specialties_text_15">
@@ -1068,7 +1113,7 @@
      <string>Thievery</string>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="rating_text_16">
+   <widget class="QPlainTextEdit" name="thievery_rating_text">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -1090,6 +1135,9 @@
     </property>
     <property name="plainText">
      <string>2</string>
+    </property>
+    <property name="centerOnScroll">
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QPlainTextEdit" name="specialties_text_16">
@@ -1124,7 +1172,7 @@
      <string>Warfare</string>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="rating_text_17">
+   <widget class="QPlainTextEdit" name="warfare_rating_text">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -1146,6 +1194,9 @@
     </property>
     <property name="plainText">
      <string>2</string>
+    </property>
+    <property name="centerOnScroll">
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QPlainTextEdit" name="specialties_text_17">
@@ -1180,7 +1231,7 @@
      <string>Will</string>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="rating_text_18">
+   <widget class="QPlainTextEdit" name="will_rating_text">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -1202,6 +1253,9 @@
     </property>
     <property name="plainText">
      <string>2</string>
+    </property>
+    <property name="centerOnScroll">
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QPlainTextEdit" name="specialties_text_18">
@@ -2164,7 +2218,7 @@
      <rect>
       <x>220</x>
       <y>860</y>
-      <width>16</width>
+      <width>21</width>
       <height>31</height>
      </rect>
     </property>
@@ -2230,7 +2284,7 @@
      <rect>
       <x>250</x>
       <y>860</y>
-      <width>16</width>
+      <width>21</width>
       <height>31</height>
      </rect>
     </property>
@@ -2255,7 +2309,7 @@
      <rect>
       <x>310</x>
       <y>860</y>
-      <width>16</width>
+      <width>21</width>
       <height>31</height>
      </rect>
     </property>
@@ -2280,7 +2334,7 @@
      <rect>
       <x>280</x>
       <y>860</y>
-      <width>16</width>
+      <width>21</width>
       <height>31</height>
      </rect>
     </property>
@@ -2305,7 +2359,7 @@
      <rect>
       <x>340</x>
       <y>860</y>
-      <width>16</width>
+      <width>21</width>
       <height>31</height>
      </rect>
     </property>
@@ -2330,7 +2384,7 @@
      <rect>
       <x>370</x>
       <y>860</y>
-      <width>16</width>
+      <width>21</width>
       <height>31</height>
      </rect>
     </property>
@@ -2355,7 +2409,7 @@
      <rect>
       <x>430</x>
       <y>860</y>
-      <width>16</width>
+      <width>21</width>
       <height>31</height>
      </rect>
     </property>
@@ -2380,7 +2434,7 @@
      <rect>
       <x>400</x>
       <y>860</y>
-      <width>16</width>
+      <width>21</width>
       <height>31</height>
      </rect>
     </property>
@@ -2405,7 +2459,7 @@
      <rect>
       <x>460</x>
       <y>860</y>
-      <width>16</width>
+      <width>21</width>
       <height>31</height>
      </rect>
     </property>
@@ -2430,7 +2484,7 @@
      <rect>
       <x>520</x>
       <y>860</y>
-      <width>16</width>
+      <width>21</width>
       <height>31</height>
      </rect>
     </property>
@@ -2455,7 +2509,7 @@
      <rect>
       <x>490</x>
       <y>860</y>
-      <width>16</width>
+      <width>21</width>
       <height>31</height>
      </rect>
     </property>
@@ -2480,7 +2534,7 @@
      <rect>
       <x>550</x>
       <y>860</y>
-      <width>16</width>
+      <width>21</width>
       <height>31</height>
      </rect>
     </property>
@@ -2622,7 +2676,7 @@
      <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLabel" name="health_value_text">
+   <widget class="QLabel" name="max_health_value_text">
     <property name="geometry">
      <rect>
       <x>730</x>
@@ -3917,9 +3971,9 @@
    <widget class="QPushButton" name="import_sheet_button">
     <property name="geometry">
      <rect>
-      <x>1230</x>
+      <x>1210</x>
       <y>840</y>
-      <width>161</width>
+      <width>181</width>
       <height>51</height>
      </rect>
     </property>
@@ -3937,9 +3991,9 @@ SHEET</string>
    <widget class="QPushButton" name="export_sheet_button">
     <property name="geometry">
      <rect>
-      <x>1230</x>
+      <x>1210</x>
       <y>780</y>
-      <width>161</width>
+      <width>181</width>
       <height>51</height>
      </rect>
     </property>
